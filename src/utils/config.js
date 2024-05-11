@@ -13,120 +13,101 @@ export const introAnimatedText = [
     "Developer",
     "Programmer",
     "Tech Enthusiast",
-    "Gamer"
+    "Cook"
 ];
-export const myName = "Aman Arya";
-export const shortDescription = "MERN and Full Stack Developer";
+export const myName = "Murali Samui";
+export const shortDescription = "Full Stack Developer";
 
 export const socialMediaDetails = [
     {
         name: 'GitHub',
-        url: 'https://github.com/Am4nn',
+        url: 'https://github.com/muralisamui',
     },
     {
         name: 'Linkedin',
-        url: 'https://www.linkedin.com/in/aman-arya-79a52121b',
-    },
-    {
-        name: 'Instagram',
-        url: 'https://www.instagram.com/am4n_arya',
+        url: 'https://www.linkedin.com/in/murali-samui-479a91163/',
     },
     {
         name: 'Email',
-        url: 'mailto:125aryaaman@gmail.com',
+        url: 'mailto:muralisamui997@gmail.com',
     }
 ];
 
 export const skills = [
     {
         name: "Languages",
-        items: ["C", "C++", "Java", "Python", "HTML/CSS", "Javascript", "Typescript"],
+        items: ["C", "Java", "HTML/CSS", "Javascript", "Typescript"],
     },
     {
         name: "Web Development",
-        items: ["React", "NextJs", "Node", "Redux", "Boot", "RestAPI", "ExpressJs", "SocketIO", "MUI"],
+        items: ["React", "NextJs", "Node", "Redux", "RestAPI", "ExpressJs", "MUI"],
     },
     {
         name: "Database",
-        items: ["MySQL", "MongoDB", "Redis"],
+        items: ["MySQL", "MongoDB"],
     },
     {
         name: "Tools/Software/Others",
-        items: ["Git", "Github", "VSCode", "IntellijIdea", "Docker", "Postman", "OpenGL", "Other"],
+        items: ["Git", "Github", "VSCode", "Postman", "Other"],
     },
 ];
 
 export const experiences = [
     {
-        title: "Summer Analyst",
-        company_name: "Goldman Sachs Pvt Ltd",
+        title: "Software Engineer",
+        company_name: "Sigilo Tech Pvt Ltd",
         bottomColor: "#6d92bf",
-        icon: "/company/Goldman_Sachs.png",
-        date: "May 2023 - July 2023",
+        icon: "/company/Sigilo_Tech.png",
+        date: "May 2022 - February 2024",
         points: [
-            "Engaged in the Goldman Sachs team maintaining client fee calculation applications, implementing 10+ efficiency-focused enhancements",
-            "Implemented a feature enabling users to charge fees as last year to bulk accounts in one click, reducing process time by 85% while ensuring reliability with 20+ JUnit test cases",
-            "Optimized user experience by decreasing UI loading time by 76% through enhanced MongoDB queries",
-            "Rectified over 15 bugs within the internal fee calculation application"
+            "Led a team of 10 developers in the creation of efficient and aesthetic websites and mobile applications for 10+ projects.",
+            "Conceptualized mock-ups for websites and mobile applications, resulting in a 35% increase in client satisfaction.",
+            "Developed a customer-specific design framework adaptable to both web and mobile platforms, reducing site and app production time by 4 days",
+            "Conducted daily standups, enhancing team efficiency by over 50% and decreasing time-to-deployment."
         ],
     },
     {
-        title: "Exam Module 2",
-        company_name: "SGSITS Indore",
+        title: "Cloud Developer Intern",
+        company_name: "Ardent Computech PVT LTD",
         bottomColor: "#f1df87",
-        icon: "/company/SGSITS_Logo.png",
-        date: "Feb 2023 - Apr 2023",
+        icon: "/company/ardent.png",
+        date: "Feb 2020 - Feb 2021",
         points: [
-            "Developed a robust web-based system to automate the examiner allocation process for multiple departments within the college",
-            "Implemented various functionalities to simplify the examiner allocation workflow",
-            "Built a user-friendly interface with React. Leveraged SQL for efficient database management and Nodejs for integration"
+            "Played a pivotal role in the successful implementation of AWS cloud-based solutions, resulting in a 50% reduction in infrastructure costs and a 60% increase in system scalability",
+            "Engineered highly optimized serverless applications leveraging AWS Lambda, achieving a 40% reduction in response time",
+            "Implemented and managed scalable and secure storage solutions using AWS S3."
         ],
     },
     {
-        title: "Senior Coordinator",
-        company_name: "#include Club SGSITS",
+        title: "Front-End Developer Intern",
+        company_name: "Confiance Mobility LLP",
         bottomColor: "#bc1010",
-        icon: "/company/Hash_Include.png",
-        date: "Oct 2021 - present",
+        icon: "/company/confiance.png",
+        date: "Nov 2020 - Dec 2020",
         points: [
-            "Developing and maintaining web applications for hackindore using Nextjs and other related technologies",
-            "With the assistance of other coordinators, successfully organized events and guided sessions for students",
-            'Speaker at "Tech-tonic" a programming road-map for freshers',
+            "Translated intricate design concepts into precisely engineered codebases, resulting in a 30% improvement in website loading times and a 25% increase in user engagement, leveraging WordPress, HTML, and CSS.",
+            "Collaborated with cross-functional teams to drive innovation, leading to a 40% increase in conversions.",
+            'Provided insights to leaders three times a week regarding the development of new features.',
         ],
     }
 ];
 
 export const projectsData = [
     {
-        title: 'Online-Judge',
-        desciption: 'Build a platform that remotely runs and compiles user submitted code for a programming problem securely and judges if the code is correct/wrong',
-        tech: ['Nodejs', 'React', 'Docker', 'Redis', 'MongoDB', 'Expressjs', 'JWT'],
-        github: 'https://github.com/Am4nn/Online-Judge-Project',
-        external: 'https://oj.amanarya.com',
-        image: '/projects/oj-front.png'
-    },
-    {
         title: 'Portfolio',
         desciption: 'Crafted an engaging portfolio site with ReactJS and Three.js, enhancing user interaction through a serverless feedback system powered by a custom API',
         tech: ['Nodejs', 'React', 'Threejs', 'Nodemailer', 'MUI', 'Bootstrap', 'drei'],
-        github: 'https://github.com/Am4nn/Portfolio-Website',
-        external: 'https://www.amanarya.com',
-        image: '/projects/portfolio-front.png'
+        github: 'https://github.com/muralisamui',
+        external: 'https://murali-samui-dev-portfolio.netlify.app/',
+        image: '/projects/PortfolioBG.png'
     },
     {
-        title: 'Draw-Graphs',
-        desciption: 'Designed a Java Swing app for user-friendly equation input and dynamic graph visualization, showcasing strong Java and GUI development skills',
-        tech: ['Java', 'Java-Swing', 'Java-Collections'],
-        github: 'https://github.com/Am4nn/Draw-Graphs',
-        image: '/projects/draw-graph-front.png'
+        title: 'Chat-Bot using AWS',
+        desciption: 'Designed a chatbot that can be integrated with facebook messenger to take food orders.',
+        tech: ['AWS LEX','Lambda','S3','EC2'],
+        github: 'https://github.com/muralisamui',
+        image: '/projects/aws.jpg'
     },
-    {
-        title: 'Super-Mario',
-        desciption: "Designed and developed 'Super Mario', a captivating 2D game using C++ and the SFML, showcasing shader programming skills for visually stunning effects in the user interface",
-        tech: ['Cpp', 'SFML', 'Shader', 'Vector', 'CMake'],
-        github: 'https://github.com/Am4nn/Super-Mario-SFML',
-        image: '/projects/super-mario-front.png'
-    }
 ];
 
 export const contactData = {
